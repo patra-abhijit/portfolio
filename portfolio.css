@@ -455,8 +455,11 @@ section .title::after {
 .skills-content .right .js::before {
     width: 80%;
 }
+.skills-content .right .java::before {
+    width: 75%;
+}
 
-.skills-content .right .php::before {
+.skills-content .right .spring::before {
     width: 50%;
 }
 
@@ -464,7 +467,7 @@ section .title::after {
     width: 70%;
 }
 
-.skills-content .right .python::before {
+.skills-content .right .git::before {
     width: 75%;
 }
 
@@ -472,7 +475,7 @@ section .title::after {
 /* teams section styling */
 
 .teams .title::after {
-    content: "who with me";
+    content: "Projects created by me";
 }
 
 .teams .carousel .card {
